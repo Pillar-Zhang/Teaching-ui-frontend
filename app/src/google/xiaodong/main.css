@@ -1,0 +1,117 @@
+.header{
+    height:30px;
+    line-height: 30px;
+}
+.button-wrapper{
+    float: right;
+}
+
+.button-wrapper .item{
+    height: 30px;
+    line-height: 30px;
+    margin-right: 15px;
+    float: left;
+    cursor: pointer;
+}
+.item .icon-menu{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    background-image: url("./img/menu.png");
+    background-size: contain
+}
+.item .icon-ling{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    margin-top: 5px;
+    background-color: rgba(0,0,0,.55);
+}
+.item .user{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    color: white;
+    background-image: url("./img/photo.jpg")
+}
+.content{
+    width: 650px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.content .google{
+    margin: 0 auto;
+    display: block;
+}
+.content .search{
+    margin-top: 30px;
+    height: 44px;
+    border: 1px solid rgba(211, 205, 205, 0.55);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    transition: box-shadow 200ms;
+    border-radius: 2px;
+    position: relative;
+}
+.content .search:hover{
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08); 
+}
+.search-input{
+    height: 44px;
+    line-height: 44px;
+    border: none;
+    display: inline-block;
+    width: 503px;
+    padding: 3px 6px;
+    text-align: left;
+    outline: none;
+    box-sizing: border-box;
+}
+.search-input:focus{
+    outline: none;
+    border:none
+}
+
+.content .icon-vioce{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url("./img/speaking.png");
+    vertical-align: top;
+    position: absolute;
+    right: 20px;
+    top: 4px
+
+}
+
+.content .other-button{
+    margin-top: 25px;
+    text-align: center;
+    
+}
+.content .other-button .button{
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    background-color: #f2f2f2;
+    color: black;
+    margin-left: 10px;
+    text-align: center;
+    padding: 0 10px;
+    text-decoration: none;
+    border-radius: 4px;
+    border: 1px solid #f5f5f5;
+}
+.other-button .button:hover{
+    background: #f5f5f5;
+    border: 1px solid rgb(133, 128, 128);
+}
+.content .language{
+    margin-top: 25px;
+    text-align: center;
+}
+.content .language .item{
+    margin-left: 10px;
+}
