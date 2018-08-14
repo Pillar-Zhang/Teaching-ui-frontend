@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+    font-family: "微软雅黑"; 
+    background: #b8e5f8;
+}
+.bg-img{
+    width: 1920px;
+    height: 1350px;
+    background:url("./img/bg.png") center top no-repeat;
+    position: absolute;
+}
+.content{
+    width: 430px;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    margin-left: -215px;
+    margin-top: 220px;
+    z-index: 1;
+}
+.login{
+    width: 430px;
+    height: auto;
+    background: #ffffff;
+    position: absolute;
+    border-radius: 4px;
+    margin-bottom: 40px;
+}
+.login .logo{
+    background: url("./img/logo.png") center no-repeat;
+    margin: 30px auto 20px;
+    height: 65px;
+}
+.login .slogn{
+    font-size: 22px;
+    color: #0084ff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 35px;
+}
+.login .rig{
+    width: 350px;
+    height: 36px;
+    background: #0084ff;
+    border-radius: 4px;
+    color: #ffffff;
+    margin: 20px 40px;
+    border: none;
+}
+.login .notice{
+    margin: 0;
+    padding: 0;
+    padding: 0 40px 40px;
+    color: #666666;
+}
+.login .notice .con-1{
+    text-decoration: none;
+    color: #666666;
+}
+.login .notice .con-2{
+    text-decoration: none;
+    float: right;
+    color: #0084ff;
+}
+.login .other{
+    height: 60px;
+    width: 100%;
+    background: #ececec;
+    border-top: #cccccc solid 1px;
+    text-align: center;
+    line-height: 60px;
+}
+.login .other a{
+    text-decoration: none;
+    color:#0084ff;
+}
+.button{
+    width: 430px;
+    height:36px;
+    background:#8590a6;
+    border-radius:4px;
+    font-size: 16px;
+    position: absolute;
+    z-index: 1;
+    left:50%;
+    margin-left:-215px;
+    display:block;
+}
