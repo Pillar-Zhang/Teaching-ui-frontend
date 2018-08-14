@@ -21,7 +21,6 @@ body{
     margin-left: -215px;
     margin-top: 220px;
     z-index: 1;
-    border: 1px solid red;
 }
 .login{
     width: 430px;
@@ -32,9 +31,9 @@ body{
 }
 .login .logo{
     background: url("./img/logo.png") center no-repeat;
-    margin: 30px auto;
+    margin: 0 auto;
     height: 65px;
-    padding-top: 50px;
+    padding: 40px 0 30px;
 }
 .login .slogn{
     font-size: 22px;
@@ -85,7 +84,8 @@ body{
     height:36px;
     background:#8590a6;
     border-radius:4px;
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
     line-height: 36px;
+    color: #ffffff;
 }
