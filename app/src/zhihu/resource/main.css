@@ -26,7 +26,6 @@ body{
     width: 430px;
     height: auto;
     background: #ffffff;
-    position: absolute;
     border-radius: 4px;
     margin-bottom: 40px;
 }
@@ -34,6 +33,7 @@ body{
     background: url("./img/logo.png") center no-repeat;
     margin: 30px auto 20px;
     height: 65px;
+    padding-top: 50px;
 }
 .login .slogn{
     font-size: 22px;
@@ -85,4 +85,6 @@ body{
     background:#8590a6;
     border-radius:4px;
     font-size: 16px;
+    text-align: center;
+    line-height: 36px;
 }
