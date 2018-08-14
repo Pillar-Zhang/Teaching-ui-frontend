@@ -1,4 +1,4 @@
-[TOC]
+[toc]
 
 # Transition
 
@@ -109,7 +109,7 @@ Cubic Bezier 曲线最好通过工具创建盒测试。参见：https://matthewl
 
 ### Transition 速记
 
-四个属性 `transition-property` `transition-duration` `transition-timing-function` `transition-delay` 可以合并成一个 `transition` 属性。空格分隔，分别列出要动画的属性、时常、缓动函数、延时：
+四个属性 `transition-property` `transition-duration` `transition-timing-function` `transition-duration` 可以合并成一个 `transition` 属性。空格分隔，分别列出要动画的属性、时常、缓动函数、延时：
 
 ```css
 transition: all 1s ease-in .5s;
