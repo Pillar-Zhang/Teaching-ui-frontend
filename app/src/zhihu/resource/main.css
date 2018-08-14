@@ -21,6 +21,7 @@ body{
     margin-left: -215px;
     margin-top: 220px;
     z-index: 1;
+    border: 1px solid red;
 }
 .login{
     width: 430px;
@@ -31,7 +32,7 @@ body{
 }
 .login .logo{
     background: url("./img/logo.png") center no-repeat;
-    margin: 30px auto 20px;
+    margin: 30px auto;
     height: 65px;
     padding-top: 50px;
 }
