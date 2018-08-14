@@ -1,0 +1,92 @@
+@import "../common.styl"
+
+.date-picker
+    position relative
+
+    btnWidth = 36px
+
+    input
+        box-sizing border-box
+        border 0
+        padding-right btnWidth
+
+    .date-picker-btn
+        position absolute
+        z-index 10
+        width btnWidth
+        right 0
+        left auto
+        top 0
+        bottom 0
+        background #ededed
+        text-align center
+
+.data-picker-overlay
+    position fixed
+    z-index 100
+    top 0
+    bottom 0
+    left 0
+    right 0
+    background rgba(#fff, .6)
+
+    .date-picker-box
+        position absolute
+        width 300px
+        top 25%
+        left 0
+        right 0
+        margin 0 auto
+        background #fff
+        box-shadow 0 0 6px #888
+        padding 16px 16px
+
+    .year-month
+        text-align center
+
+    .time
+        margin-top 8px
+        text-align center
+
+    .select-year
+    .select-month
+    .select-hour
+    .select-minute
+        width 70px
+        margin-right 4px
+        text-align center
+
+    a.prev-month
+    a.next-month
+        display inline-block
+        text-align center
+        margin 0 4px
+
+    table
+        width 100%
+        margin-top 8px
+
+        td, th
+            width 100% / 7
+            text-align center
+            line-height 32px
+            border 1px solid cSeparator
+
+            &.last-month, &.next-month
+                background cSeparator + 50%
+
+            &.today
+                background cBtnBg
+
+        td:hover
+            cursor pointer
+
+    .cancel
+        display block
+        margin 8px 0
+        text-align center
+
+
+
+
+
