@@ -1,0 +1,202 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+    font-family: "微软雅黑"; 
+    background: #b8e5f8;
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
+.bg-img{
+    width: 1920px;
+    height: 1350px;
+    background:url("./img/bg.png") center top no-repeat;
+    position: absolute;
+}
+.content{
+    width: 430px;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    margin-left: -215px;
+    margin-top: 140px;
+    z-index: 1;
+}
+.login{
+    width: 430px;
+    height: auto;
+    background: #ffffff;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+.login .logo{
+    background: url("./img/logo.png") center no-repeat;
+    margin: 0 auto;
+    height: 65px;
+    margin-bottom: 20px;
+}
+.login .slogn{
+    font-size: 22px;
+    color: #0084ff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 35px;
+}
+.login .inf-tele{
+    width: 430px;
+    height: 45px;
+    margin: 0 40px;
+}
+.login .area{
+    height: 44px;
+    width: 96px;
+    border:none;
+}
+.login .line{
+    width: 1px;
+    height: 35px;
+    margin: 5px 10px;
+    border-left: 1px solid #cccccc;
+}
+.login .telephone{
+    height: 42px;
+    width: 230px;
+    border:none;
+}
+.login .r1{
+    height: 10px;
+    width: 350px;
+    margin: 0 40px;
+    border-top: 1px solid #cccccc;
+}
+.login .mes{
+    height: 45px;
+    width: 350px;
+    margin: 0 40px;
+}
+.login .mes .message{
+    border: none;
+    height: 42px;
+    width: 350px;
+    position: absolute;
+}
+.login .mes a{
+    position: absolute;
+    right: 40px;
+    line-height: 42px;
+    text-decoration: none;
+    color: #0084ff;
+}
+.login .mes-v{
+    float: right;
+    margin: 0 40px;
+}
+.login .mes-v a{
+    text-decoration: none;
+    color: #cccccc;
+}
+.login .mes-v a:hover{
+    color: #0084ff;
+}
+.login .rig{
+    width: 350px;
+    height: 36px;
+    background: #0084ff;
+    border-radius: 4px;
+    color: #ffffff;
+    margin: 20px 40px;
+    border: none;
+}
+.login .notice{
+    margin: 0;
+    padding: 0;
+    padding: 0 40px 40px;
+    color: #666666;
+}
+.login .notice .con-1{
+    text-decoration: none;
+    color: #666666;
+}
+.login .notice .con-2{
+    text-decoration: none;
+    float: right;
+    color: #0084ff;
+}
+.login .other{
+    height: 60px;
+    width: 100%;
+    background: #ececec;
+    border-top: #cccccc solid 1px;
+    text-align: center;
+    line-height: 60px;
+}
+.login .other a{
+    text-decoration: none;
+    color:#0084ff;
+}
+.a-button{
+    text-decoration: none;
+}
+.button{
+    width: 430px;
+    height:40px;
+    background:#8590a6;
+    border-radius:4px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 36px;
+    color: #ffffff;
+}
+.inf-text{
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -263px;
+    color: #ffffff;
+    font-size: 12px;
+}
+.inf-text p{
+    text-align: center;
+    line-height: 20px;
+    text-shadow: 0 0 2px #666666;
+}
+.inf-text p a{
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+.inf-text p a:hover{
+    border-bottom: 1px solid #ffffff;
+}
+.inf-text .r1{
+    height: 1px;
+    width: 430px;
+    margin-left: 48px;
+    border-top: 1px solid #ffffff;
+}
+.xin{
+    display: block;
+    width: 125px;
+    height: 20px;
+    margin: 0 auto;
+    font-size: 12px;
+    line-height: 20px;
+    text-shadow: 0 0 2px #666666;
+}
+.xin a{
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+.xin a img{
+    vertical-align:middle;
+    width: 23px;
+    height: 20px;
+}
+.xin .text:hover{
+    border-bottom: 1px solid #ffffff;
+}
