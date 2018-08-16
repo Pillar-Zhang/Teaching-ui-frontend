@@ -51,6 +51,10 @@ body{
     height: 45px;
     margin: 0 40px;
 }
+.login .area,.login .telephone,.login .message,.login .rig:focus{
+    border: none;
+    outline: none;
+}
 .login .area{
     height: 44px;
     width: 96px;
@@ -110,6 +114,7 @@ body{
     color: #ffffff;
     margin: 20px 40px;
     border: none;
+    cursor: pointer;
 }
 .login .notice{
     margin: 0;
@@ -148,7 +153,7 @@ body{
     border-radius:4px;
     font-size: 14px;
     text-align: center;
-    line-height: 36px;
+    line-height: 40px;
     color: #ffffff;
 }
 .inf-text{
