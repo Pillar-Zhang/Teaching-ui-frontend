@@ -5,14 +5,12 @@ body{
     height: auto;
     font-size: 14px;
     font-family: "微软雅黑"; 
-    background: #b8e5f8;
+    background: #b8e5f8 url("./img/bg.png") center top no-repeat;
     overflow-x:hidden;
     overflow-y:hidden;
-    background:url("./img/bg.png") center top no-repeat;
     width: 100%;
     height:100%;
 }
-
 .content{
     width: 430px;
     height: auto;
@@ -20,7 +18,6 @@ body{
     left: 50%;
     margin-left: -215px;
     margin-top: 140px;
-    z-index: 1;
 }
 .login{
     width: 430px;
@@ -69,6 +66,11 @@ body{
     width: 230px;
     border:none;
 }
+.login .telephone1{
+    height: 42px;
+    width: 350px;
+    border:none;
+}
 .login .r1{
     height: 10px;
     width: 350px;
@@ -92,6 +94,16 @@ body{
     line-height: 42px;
     text-decoration: none;
     color: #0084ff;
+}
+.login .mes-get{
+    margin:0 40px;
+}
+.login .mes-get a{
+    text-decoration: none;
+    color: #0084ff;
+}
+.login .mes-get a:hover{
+    color: #cccccc;
 }
 .login .mes-v{
     float: right;
@@ -117,8 +129,10 @@ body{
 .login .notice{
     margin: 0;
     padding: 0;
-    padding: 0 40px 40px;
+    width: 350px;
+    margin: 0 40px 40px;
     color: #666666;
+    text-align: center;
 }
 .login .notice .con-1{
     text-decoration: none;
@@ -203,10 +217,7 @@ body{
 .xin .text:hover{
     border-bottom: 1px solid #ffffff;
 }
-.rigbox{
-    display: none;
-}
-
+/*
 .register-content{
     display: none;
     display: block;
@@ -226,3 +237,4 @@ body{
     top:50%;
     transform: translate(-50%,-50%);
 }
+*/

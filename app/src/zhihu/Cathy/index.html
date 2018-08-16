@@ -9,41 +9,68 @@
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="main.js"></script>
 </head>
-
 <body>
-    <div class="register-content rigbox">
         <div class="bg-img"></div>
-        <div class="content">
-            <div class="login">
-                <div class="logo"></div>
-                <p class="slogn">注册知乎，发现更大的世界</p>
-                <div class="inf-tele ">
-                    <select class="area ">
-                        <option value="中国+86 " selected>中国+86</option>
-                        <option value="美国+1 ">美国+1</option>
-                        <option value="日本+81 ">日本+81</option>
-                        <option value="中国香港+852 ">中国香港+852</option>
-                        <option value="中国台湾+886 ">中国台湾+886</option>
-                    </select>
-                    <span class="line "></span>
-                    <input type="text " name="telephone " placeholder="请输入手机号 " class="telephone ">
+        <div class="register-content">
+                <div class="content">
+                    <div class="login">
+                        <div class="logo"></div>
+                        <p class="slogn">注册知乎，发现更大的世界</p>
+                        <div class="inf-tele ">
+                            <select class="area ">
+                                <option value="中国+86 " selected>中国+86</option>
+                                <option value="美国+1 ">美国+1</option>
+                                <option value="日本+81 ">日本+81</option>
+                                <option value="中国香港+852 ">中国香港+852</option>
+                                <option value="中国台湾+886 ">中国台湾+886</option>
+                            </select>
+                            <span class="line "></span>
+                            <input type="text " name="telephone " placeholder="请输入手机号 " class="telephone ">
+                        </div>
+                        <h1 class="r1 "></h1>
+                        <div class="mes ">
+                            <input type="text " name="mes " placeholder="输入6位短信验证码 " class="message ">
+                            <a href="# ">获取短信验证码</a>
+                        </div>
+                        <h1 class="r1 "></h1>
+                        <span class="mes-v "><a href="# ">接收语音验证码</a></span>
+                        <input type="button" value="注册" class="rig ">
+                        <p class="notice ">
+                            注册即代表同意<a href="# " class="con-1 ">《知乎协议》</a><a href="# " class="con-1 ">《隐私政策》</a><a href="# " class="con-2 ">注册机构号</a>
+                        </p>
+                        <div class="other ">
+                            已有账号？<a onclick="toggle( 'login') " href="# ">登录</a>
+                        </div>
+                    </div>
+                    <a href="# " class="a-button "><div class="button ">下载知乎APP</div></a>
                 </div>
-                <h1 class="r1 "></h1>
-                <div class="mes ">
-                    <input type="text " name="mes " placeholder="输入6位短信验证码 " class="message ">
-                    <a href="# ">获取短信验证码</a>
+        </div>
+        <div class="logbox login-content">
+            <div class="content ">
+                <div class="login ">
+                    <div class="logo "></div>
+                    <p class="slogn ">登录知乎，发现更大的世界</p>
+                    <div class="inf-tele ">
+                        <input type="text " name="telephone " placeholder="请输入手机号 " class="telephone1 ">
+                    </div>
+                    <h1 class="r1 "></h1>
+                    <div class="mes ">
+                        <input type="text " name="mes " placeholder="密码 " class="message ">
+                        <a href="# "><img src="./img/unvisable.png"></a>
+                    </div>
+                    <h1 class="r1 "></h1>
+                    <span class="mes-get "><a href="# ">获取手机验证码</a></span>
+                    <span class="mes-v "><a href="# ">忘记密码</a></span>
+                    <input type="button" value="登录" class="rig ">
+                    <p class="notice ">
+                        <a href="# " class="con-1 ">二维码登录</a>&nbsp;.&nbsp;<a href="# " class="con-1 ">海外手机登录</a>&nbsp;.&nbsp;<a href="# " class="con-1 ">社交账号登录</a>
+                    </p>
+                    <div class="other ">
+                        没有账号？<a href="javascript: " onclick="toggle( 'register') " class="register-content ">注册</a>
+                    </div>
                 </div>
-                <h1 class="r1 "></h1>
-                <span class="mes-v "><a href="# ">接收语音验证码</a></span>
-                <input type="submit " value="注册 " class="rig ">
-                <p class="notice ">
-                    注册及代表同意<a href="# " class="con-1 ">《知乎协议》</a><a href="# " class="con-1 ">《隐私政策》</a><a href="# " class="con-2 ">注册机构号</a>
-                </p>
-                <div class="other ">
-                    已有账号？<a href="# ">登录</a>
-                </div>
+                <a href="# " class="a-button "><div class="button ">下载知乎APP</div></a>
             </div>
-            <a href="# " class="a-button "><div class="button ">下载知乎APP</div></a>
         </div>
         <div class="inf-text ">
             <p>
@@ -59,59 +86,6 @@
                 <a href="# "><img src="./img/xin.png "></a>&nbsp;<a href="# " class="text ">诚信网站师范企业</a>
             </span>
         </div>
-        <div class="logbox ">
-            <div class="content ">
-                <div class="login ">
-                    <div class="logo "></div>
-                    <p class="slogn ">登录知乎，发现更大的世界</p>
-                    <div class="inf-tele ">
-                        <select class="area ">
-                            <option value="中国+86 " selected>中国+86</option>
-                            <option value="美国+1 ">美国+1</option>
-                            <option value="日本+81 ">日本+81</option>
-                            <option value="中国香港+852 ">中国香港+852</option>
-                            <option value="中国台湾+886 ">中国台湾+886</option>
-                        </select>
-                        <span class="line "></span>
-                        <input type="text " name="telephone " placeholder="请输入手机号 " class="telephone ">
-                    </div>
-                    <h1 class="r1 "></h1>
-                    <div class="mes ">
-                        <input type="text " name="mes " placeholder="输入6位短信验证码 " class="message ">
-                        <a href="# ">获取短信验证码</a>
-                    </div>
-                    <h1 class="r1 "></h1>
-                    <span class="mes-v "><a href="# ">接收语音验证码</a></span>
-                    <input type="submit " value="登录 " class="rig ">
-                    <p class="notice ">
-                        注册及代表同意<a href="# " class="con-1 ">《知乎协议》</a><a href="# " class="con-1 ">《隐私政策》</a><a href="# " class="con-2 ">注册机构号</a>
-                    </p>
-                    <div class="other ">
-                        没有账号？<a onclick="toggle( 'login') " href="# ">登陆</a>
-                    </div>
-                </div>
-                <a href="# " class="a-button "><div class="button ">下载知乎APP</div></a>
-            </div>
-            <div class="inf-text ">
-                <p>
-                    <a href="# ">知乎专栏</a>&nbsp;.&nbsp;<a href="# ">圆桌</a>&nbsp;.&nbsp;<a href="# ">发现</a>&nbsp;.&nbsp;<a
-                        href="#
-                    ">移动应用</a>&nbsp;.&nbsp;<a href="# ">联系我们</a>&nbsp;.&nbsp;<a href="# ">来知乎工作</a>&nbsp;.&nbsp;<a href="# ">注册机构号</a><br
-                    />
-                    <img src="./img/ba.png ">2018知乎&nbsp;.&nbsp;<a href="#
-                    ">京ICP证110745号</a>&nbsp;.&nbsp;京公网安备11010802010035号<a href="# ">出版物经营许可证</a><br />
-                    <a href="# ">侵权举报</a>&nbsp;.&nbsp;<a href="# ">网上有害信息举报专区</a>&nbsp;.&nbsp;<a href="# ">儿童色情信息举报专区</a>&nbsp;.&nbsp;违法和不良信息举报：010-82718801
-                    <h1 class="r1 "></h1>
-                </p>
-                <span class="xin ">
-                    <a href="# "><img src="./img/xin.png "></a>&nbsp;<a href="# " class="text ">诚信网站师范企业</a>
-                </span>
-            </div>
-        </div>
-    </div>
-    <div class="login-content ">
-        <a href="javascript: " onclick="toggle( 'register') " class="register-content ">注册</a>
-    </div>
 </body>
 
 </html>
