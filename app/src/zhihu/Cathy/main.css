@@ -95,6 +95,9 @@ body{
     text-decoration: none;
     color: #0084ff;
 }
+.login .mes .s2{
+    display: none;
+}
 .login .mes-get{
     margin:0 40px;
 }
