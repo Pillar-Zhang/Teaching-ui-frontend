@@ -5,7 +5,7 @@ NaN === NaN
 // 
 NaN !== NaN    
 // 
-NaN+123        
+NaN+123        
 //
 NaN++"123"      
 //
@@ -38,7 +38,7 @@ numbers.splice(2, 1)
 
 4,判断下列是否为假值：
 
-false
+false
 //
 null
 //
@@ -77,7 +77,7 @@ let g = obj.good
 g()
 //
 
-7，尝试写出该函数执行后的值：
+7，尝试写出该函数执行后的值：
 
 var add_the_handlers = function (nodes) {
     var i
