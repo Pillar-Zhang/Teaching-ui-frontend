@@ -9,15 +9,15 @@ function toggle(type) {
         loginDom.style.display = "block"
     }
 }
-function see(value){
-var v1=document.querySelector(".logsee1");
-var v2=document.querySelector(".logsee2");
-if(value=='a'){
-    v1.stype.display="block";
-    v2.stype.display="none";
+function see(v){
+var v1=document.querySelector(".s1");
+var v2=document.querySelector(".s2");
+if(v==='a'){
+    v1.style.display="block";
+    v2.style.display="none";
 }
 else{
-    v1.stype.display="none";
-    v2.stype.display="block";
+    v1.style.display="none";
+    v2.style.display="block";
 }
 }
